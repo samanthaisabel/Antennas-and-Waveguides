@@ -1,11 +1,10 @@
 <a id="readme-top"></a>
 
+> [!IMPORTANT]
+> `Field: RF Engineering` • `Hardware: Microwave Bench`
+
 # 📡 Antennas & Waveguides
 > **Practical exploration of microwave signal transmission, waveguide component mapping, and directional antenna reception.**
-
-![Field](https://img.shields.io)
-![Status](https://img.shields.io)
-![Hardware](https://img.shields.io)
 
 
 ---
