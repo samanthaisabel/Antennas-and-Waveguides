@@ -1,63 +1,81 @@
 <a id="readme-top"></a>
 
-# 📡 Microwave Engineering: Antennas & Waveguides
-> **Hands-on laboratory analysis of X-Band signal chains and Yagi–Uda radiation.**
+# 📡 Antennas & Waveguides
+> **Practical exploration of microwave signal transmission, waveguide component mapping, and directional antenna reception.**
+
+![Field](https://img.shields.io)
+![Status](https://img.shields.io)
+![Hardware](https://img.shields.io)
+
+
+---
+
+### 🚀 Project Overview
+*   **Objective:** Investigate microwave signal transmission through physical waveguide structures and directional antennas.
+*   **Method:** Configured a microwave bench to observe the transition between guided wave propagation and free-space signal reception.
+*   **Outcome:** Conducted a systematic mapping of the microwave signal chain and identified critical hardware variables such as **flange alignment** that directly influence signal continuity and link integrity.
 
 ---
 
 ### 🛠️ Technical Skillset & Competencies
-*   **RF Engineering:** Impedance matching and high-frequency circuit analysis.
-*   **Mode Analysis:** Proficient in **TE (Transverse Electric)** propagation.
-*   **Hardware:** Hands-on experience with Microwave Signal Chains, Waveguides, and Radiators.
+*   **Microwave Systems:** Foundational knowledge of signal transmission through guided and radiated media.
+*   **Hardware Configuration:** Hands-on experience identifying and mapping physical components.
+*   **Antenna Reception:** Practical analysis of signal acquisition using **Yagi–Uda** configurations.
+*   **RF Fundamentals:** Understanding the role of **Impedance Matching**, **SWR**, and **Signal Modulation**.
 
 ---
 
 ## 📋 Table of Contents
-* [Technical Objectives](#technical-objectives)
+* [Objectives](#objectives)
 * [Theoretical Background](#theoretical-background)
 * [Laboratory Observations & Setup](#laboratory-observations--setup)
-* [Engineering Takeaways](#engineering-takeaways)
-* [Discussion & Professional Impact](#discussion--professional-impact)
+* [Takeaways](#takeaways)
 * [Conclusion](#conclusion)
 
 ---
 
-## Technical Objectives
-Mastering the hardware-level setup of microwave communication links to achieve high-efficiency signal propagation.
-
+## Objectives
 <details>
 <summary><b>View Details</b></summary>
 
 *   **Signal Transformation:** Master the role of antennas in converting electrical signals to radiated EM waves.
-*   **Guided Propagation:** Analyze waveguide structures to minimize signal loss.
+*   **Guided Propagation:** Analyze waveguide structures to minimize signal loss and maximize transmission efficiency.
 </details>
 
 ---
 
 ## Theoretical Background
-Core physics principles governing Yagi–Uda directivity and TE₁₀ waveguide modes.
+*Core principles governing Yagi–Uda directivity and specialized waveguide components.*
 
 <details>
 <summary><b>View Theory & Physics</b></summary>
 
 ### Antenna Fundamentals
-Antennas act as electromagnetic transducers. In this experiment, a **Yagi–Uda** configuration was utilized for its high directivity.
-*   **Directional Radiation:** Uses a driven element, reflector, and directors to concentrate energy.
-*   **Gain & Directivity:** Geometry increases signal strength along the main lobe.
-*   **Polarization:** Precise alignment of antennas ensures maximum signal reception.
+Antennas act as electromagnetic transducers, converting electrical signals into radiated waves.
+*   **Yagi–Uda Configuration:** Utilized for high directivity, using reflectors and directors to focus energy along a main lobe.
+*   **Horn Antenna:** Acts as a high-gain aperture radiator, providing a seamless impedance transition from the waveguide to free space.
+*   **Polarization:** Precise alignment of transmitting and receiving elements is required for maximum power transfer.
+
+### Waveguide Component
+Proper signal management requires a specific sequence of microwave hardware:
+*   **Microwave Source:** Generates the high-frequency carrier (Klystron or Gunn Oscillator).
+*   **Isolator:** A non-reciprocal device that protects the source by preventing reflected power from returning.
+*   **Frequency Meter:** A cavity resonator used to verify the exact operating frequency of the system.
+*   **Variable Attenuator:** Absorptive device used to control signal intensity without changing the SWR.
+*   **Slide Screw Tuner:** Introduces variable reactance to cancel reflections and achieve **Impedance Matching**.
+*   **Slotted Line:** A fundamental tool for observing standing wave patterns and E-field distribution.
+*   **Termination Load:** A matched load designed to absorb all incident power, preventing unwanted reflections at the end of the chain.
 
 ### Waveguide Physics
-Metallic waveguides avoid the high-frequency losses found in conventional transmission lines.
-*   **Guided Wave Propagation:** EM waves travel through hollow structures via reflection from conductive walls.
 *   **Dominant Mode:** Rectangular waveguides operate in **TE₁₀ mode** for stable propagation.
-*   **Cutoff Frequency:** Physical dimensions dictate the minimum frequency for propagation.
+*   **Signal Modulation:** Utilized **1 kHz square wave modulation** to facilitate signal detection via the detector mount and oscilloscope.
 
 </details>
 
 ---
 
 ## Laboratory Observations & Setup
-Direct visual evidence of the X-Band signal chain and signal acquisition performance.
+*Direct visual evidence of the microwave signal chain and signal acquisition performance.*
 
 <details>
 <summary><b>View Setup & Media Gallery</b></summary>
@@ -77,9 +95,8 @@ Direct visual evidence of the X-Band signal chain and signal acquisition perform
 
 <p align="center">
   <strong>Signal Validation & Performance (Lab Videos)</strong><br>
-  <a href="assets/Antenna/Antenna%20Setup.mp4"><strong>🎥 Click to Watch: Antenna Setup Demo</strong></a><br>
-  <a href="assets/Antenna/Antenna%20(Output).mp4"><strong>🎥 Click to Watch: Oscilloscope Signal Output</strong></a>
-  <br><em>(Clicking these links opens the GitHub Video Player)</em>
+  <a href="assets/Antenna/Antenna%20Setup.mp4"><strong>Antenna Setup Demo</strong></a><br>
+  <a href="assets/Antenna/Antenna%20(Output).mp4"><strong>Oscilloscope Signal Output</strong></a>
 </p>
 
 ---
@@ -92,7 +109,6 @@ Direct visual evidence of the X-Band signal chain and signal acquisition perform
 
 <p align="center">
   <strong>Component Details</strong><br>
-  <img src="assets/Waveguide/Pic%201.jpg" height="200">
   <img src="assets/Waveguide/Pic%202.jpg" height="200">
   <img src="assets/Waveguide/Pic%203.jpg" height="200">
   <img src="assets/Waveguide/Pic%204.jpg" height="200">
@@ -102,38 +118,35 @@ Direct visual evidence of the X-Band signal chain and signal acquisition perform
 
 ---
 
-## Engineering Takeaways
-Critical insights derived from hands-on hardware interaction and troubleshooting.
+## Takeaways
+*Practical experience in RF system assembly, signal validation, and hardware configuration.*
 
-<details>
-<summary><b>View Key Insights</b></summary>
+<details open>
+<summary><b>View Project Analysis</b></summary>
 
-*   **Signal Integrity:** Proper waveguide alignment is critical to minimize reflections.
-*   **Directionality:** Verified that Yagi–Uda gain is highly dependent on precise axial alignment.
-*   **Theory to Practice:** Applied Maxwell’s Equations to physical X-Band hardware.
+### Successful Implementation: Antenna Transmission
+*   **System Validation:** Successfully established a wireless link using the **Yagi–Uda antenna** configuration.
+*   **Impedance Optimization:** Leveraged a **Slide Screw Tuner** to match impedance and ensure maximum power transfer to the receiver.
+*   **Directivity:** Observed how precise antenna alignment directly impacts signal strength on the oscilloscope.
 
-</details>
+### Learning Milestone: Waveguide System Assembly
+The waveguide portion of the lab focused on the complex physical architecture required for guided-wave propagation. While the setup did not produce a final output, it provided critical hands-on experience:
+*   **Hardware Integration:** Gained technical proficiency in the sequential assembly of the microwave bench.
+*   **Assembly Precision:** Learned how to align and secure waveguide flanges, a fundamental skill for maintaining signal integrity at high frequencies.
+*   **Component Mapping:** Developed a deep understanding of the signal chain, from the microwave source through the various modulation and measurement stages.
 
----
-
-## Discussion & Professional Impact
-Strategic evaluation of RF conceptual mapping and its critical role in microwave system scalability.
-
-<details>
-<summary><b>View Professional Analysis</b></summary>
-
-This analysis bridged the gap between theoretical electromagnetics and hardware deployment. This knowledge is essential for:
-*   **Antenna Characterization:** Predicting radiation patterns.
-*   **Microwave Measurements:** Analyzing S-parameters and signal attenuation.
-*   **System Integration:** Ensuring electromagnetic compatibility (EMC).
+### Skills Gained
+*   **System Configuration:** Expertly mapped and assembled a multi-stage microwave hardware chain.
+*   **Technical Awareness:** Gained a realistic understanding of how physical tolerances and hardware conditions (such as oxidation) affect link reliability.
+*   **Adaptability:** Successfully pivoted to the antenna setup to validate transmission logic when the guided path encountered hardware-level limitations.
 
 </details>
 
 ---
 
 ## Conclusion
-The session successfully validated the significance of waveguides and antennas in RF systems. This project serves as a technical springboard for advanced microwave engineering.
+The session successfully validated the significance of waveguides and antennas in microwave systems. This project serves as a technical springboard for advanced RF and microwave engineering.
 
 ---
 
-<p align="right">(<a href="#readme-top">back to top ↑</a>)</p>
+<p align="right"><a href="#readme-top">Back to top ↑</a></p>
