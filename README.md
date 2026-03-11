@@ -1,100 +1,138 @@
 <a id="readme-top"></a>
 
-# 📡 Antennas & Waveguides: Fundamental Concepts & Analysis
-> **A professional engineering study on electromagnetic wave propagation and microwave system design.**
+# 📡 Microwave Engineering: Antennas & Waveguides
+> **Hands-on laboratory analysis of X-Band signal chains and Yagi–Uda radiation.**
 
 ---
 
 ### 🛠️ Technical Skillset & Competencies
-*   **RF Engineering:** Impedance matching, signal integrity, and high-frequency circuit analysis.
-*   **Electromagnetics:** Advanced application of **Maxwell’s Equations** and Wave Equations.
-*   **Mode Analysis:** Proficient in **TE (Transverse Electric)** and **TM (Transverse Magnetic)** propagation.
+*   **RF Engineering:** Impedance matching and high-frequency circuit analysis.
+*   **Mode Analysis:** Proficient in **TE (Transverse Electric)** propagation.
 *   **Hardware:** Hands-on experience with Microwave Signal Chains, Waveguides, and Radiators.
 
 ---
 
 ## 📋 Table of Contents
-* [1. Introduction](#1-introduction)
-* [2. Technical Objectives](#2-technical-objectives)
-* [3. Theoretical Background](#3-theoretical-background)
-* [4. Laboratory Observations & Setup](#4-laboratory-observations--setup)
-* [5. Discussion & Professional Impact](#5-discussion--professional-impact)
-* [6. Conclusion](#6-conclusion)
+* [Technical Objectives](#technical-objectives)
+* [Theoretical Background](#theoretical-background)
+* [Laboratory Observations & Setup](#laboratory-observations--setup)
+* [Engineering Takeaways](#engineering-takeaways)
+* [Discussion & Professional Impact](#discussion--professional-impact)
+* [Conclusion](#conclusion)
 
 ---
 
-## 1. Introduction
- This project provides a technical overview of antennas and waveguides, the backbone of modern Radio Frequency (RF) and microwave communication. By analyzing the transition from guided media to free-space radiation, this work demonstrates the foundational principles required for **5G, Aerospace, and Radar engineering.**
-
----
-
-## 2. Technical Objectives
- Mastering the hardware-level setup of microwave communication links to achieve high-efficiency signal propagation.
+## Technical Objectives
+Mastering the hardware-level setup of microwave communication links to achieve high-efficiency signal propagation.
 
 <details>
-<summary><b>View Detailed Objectives</b></summary>
+<summary><b>View Details</b></summary>
 
-*   **Signal Transformation:** Master the fundamental role of antennas in converting electrical signals to radiated EM waves.
-*   **Guided Propagation:** Analyze the structure and function of waveguides in microwave communication links.
-*   **System Design:** Develop foundational knowledge of electromagnetic wave propagation in guided media to minimize signal loss.
-
+*   **Signal Transformation:** Master the role of antennas in converting electrical signals to radiated EM waves.
+*   **Guided Propagation:** Analyze waveguide structures to minimize signal loss.
 </details>
 
 ---
 
-## 3. Theoretical Background
- Analysis of the physics governing microwave communication and signal guidance.
+## Theoretical Background
+Core physics principles governing Yagi–Uda directivity and TE₁₀ waveguide modes.
 
 <details>
 <summary><b>View Theory & Physics</b></summary>
 
-### The Interface
-Antennas serve as the critical transducer between electrical circuits and free-space. This section explores the physics of wireless communication used in satellite, radar, and broadcasting.
+### Antenna Fundamentals
+Antennas act as electromagnetic transducers. In this experiment, a **Yagi–Uda** configuration was utilized for its high directivity.
+*   **Directional Radiation:** Uses a driven element, reflector, and directors to concentrate energy.
+*   **Gain & Directivity:** Geometry increases signal strength along the main lobe.
+*   **Polarization:** Precise alignment of antennas ensures maximum signal reception.
 
 ### Waveguide Physics
-Metallic waveguides are analyzed as the superior alternative to traditional lines at high frequencies. 
-*   **Efficiency:** Minimal loss propagation at microwave levels.
-*   **Patterns:** Understanding how physical dimensions dictate specific **TE and TM modes**.
+Metallic waveguides avoid the high-frequency losses found in conventional transmission lines.
+*   **Guided Wave Propagation:** EM waves travel through hollow structures via reflection from conductive walls.
+*   **Dominant Mode:** Rectangular waveguides operate in **TE₁₀ mode** for stable propagation.
+*   **Cutoff Frequency:** Physical dimensions dictate the minimum frequency for propagation.
 
 </details>
 
 ---
 
-## 4. Laboratory Observations & Setup
- Direct observation of signal propagation through a managed microwave chain.
+## Laboratory Observations & Setup
+Direct visual evidence of the X-Band signal chain and signal acquisition performance.
 
 <details>
-<summary><b>View Setup & Findings</b></summary>
+<summary><b>View Setup & Media Gallery</b></summary>
 
-**Configuration:** Trace of signal propagation from source → waveguide → antenna.
-*   **Component Mapping:** Identification and functional analysis of microwave hardware.
-*   **Signal Flow:** Insights into how components facilitate efficient high-frequency communication.
+<p align="center">
+  <strong>Antenna Trainer & Transmitter Setup</strong><br>
+  <img src="assets/Antenna/Antenna%20Trainer.jpg" height="250">
+  <img src="assets/Antenna/Transmitter%20(Antenna).jpg" height="250">
+  <img src="assets/Antenna/SETUP.jpg" height="250">
+</p>
 
-> [!IMPORTANT]
-> **Technical Documentation**  
-> *Visualizing the physical microwave setup through component mapping is critical for proving technical competence and hands-on laboratory experience.*
+<p align="center">
+  <strong>Yagi–Uda Receiver Configuration</strong><br>
+  <img src="assets/Antenna/Receiver%20(Antenna).jpg" height="300">
+  <img src="assets/Antenna/Receiver%20(Antenna)%202.jpg" height="300">
+</p>
+
+<p align="center">
+  <strong>Signal Validation & Performance (Lab Videos)</strong><br>
+  <a href="assets/Antenna/Antenna%20Setup.mp4"><strong>🎥 Click to Watch: Antenna Setup Demo</strong></a><br>
+  <a href="assets/Antenna/Antenna%20(Output).mp4"><strong>🎥 Click to Watch: Oscilloscope Signal Output</strong></a>
+  <br><em>(Clicking these links opens the GitHub Video Player)</em>
+</p>
+
+---
+
+<p align="center">
+  <strong>Waveguide Bench Mapping</strong><br>
+  <img src="assets/Waveguide/Waveguide%20(Complete).jpg" height="300">
+  <img src="assets/Waveguide/Sample.jpg" height="300">
+</p>
+
+<p align="center">
+  <strong>Component Details</strong><br>
+  <img src="assets/Waveguide/Pic%201.jpg" height="200">
+  <img src="assets/Waveguide/Pic%202.jpg" height="200">
+  <img src="assets/Waveguide/Pic%203.jpg" height="200">
+  <img src="assets/Waveguide/Pic%204.jpg" height="200">
+</p>
 
 </details>
 
 ---
 
-## 5. Discussion & Professional Impact
- **Strategic evaluation of RF conceptual mapping and its critical role in microwave system scalability.**
+## Engineering Takeaways
+Critical insights derived from hands-on hardware interaction and troubleshooting.
+
+<details>
+<summary><b>View Key Insights</b></summary>
+
+*   **Signal Integrity:** Proper waveguide alignment is critical to minimize reflections.
+*   **Directionality:** Verified that Yagi–Uda gain is highly dependent on precise axial alignment.
+*   **Theory to Practice:** Applied Maxwell’s Equations to physical X-Band hardware.
+
+</details>
+
+---
+
+## Discussion & Professional Impact
+Strategic evaluation of RF conceptual mapping and its critical role in microwave system scalability.
 
 <details>
 <summary><b>View Professional Analysis</b></summary>
 
-This analysis bridged the gap between theoretical electromagnetics and physical hardware deployment. Mastering the conceptual mapping of these structures is a prerequisite for:
-*   **Antenna Characterization:** Predicting radiation patterns and aperture efficiency.
-*   **Microwave Measurements:** Analyzing S-parameters (Return Loss/VSWR) and signal attenuation.
-*   **System Integration:** Ensuring electromagnetic compatibility (EMC) in complex RF environments.
+This analysis bridged the gap between theoretical electromagnetics and hardware deployment. This knowledge is essential for:
+*   **Antenna Characterization:** Predicting radiation patterns.
+*   **Microwave Measurements:** Analyzing S-parameters and signal attenuation.
+*   **System Integration:** Ensuring electromagnetic compatibility (EMC).
 
 </details>
 
 ---
 
-## 6. Conclusion
- The session successfully validated the significance of waveguides and antennas in RF systems. This project serves as a technical springboard for advanced microwave engineering, including practical experimentation and signal measurement techniques.
+## Conclusion
+The session successfully validated the significance of waveguides and antennas in RF systems. This project serves as a technical springboard for advanced microwave engineering.
 
 ---
 
