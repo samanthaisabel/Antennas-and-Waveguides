@@ -1,18 +1,15 @@
 <a id="readme-top"></a>
 
-> [!IMPORTANT]
-> `Field: RF Engineering` • `Hardware: Microwave Bench`
-
 # 📡 Antennas & Waveguides
 > **Practical exploration of microwave signal transmission, waveguide component mapping, and directional antenna reception.**
 
-
 ---
 
-### 🚀 Project Overview
-*   **Objective:** Investigate microwave signal transmission through physical waveguide structures and directional antennas.
-*   **Method:** Configured a microwave bench to observe the transition between guided wave propagation and free-space signal reception.
-*   **Outcome:** Conducted a systematic mapping of the microwave signal chain and identified critical hardware variables such as **flange alignment** that directly influence signal continuity and link integrity.
+> [!IMPORTANT]
+> - **Domain:** `RF Engineering`
+> - **Platform:** `Antenna & Waveguide Training System`
+> - **Core Objective:** Investigate the transition between guided wave propagation and free-space reception via directional antenna arrays.
+> - **Key Outcome:** Identified critical hardware variables, such as **flange alignment**, that directly influence signal continuity and link integrity.
 
 ---
 
@@ -25,18 +22,17 @@
 ---
 
 ## 📋 Table of Contents
-* [Objectives](#objectives)
-* [Theoretical Background](#theoretical-background)
-* [Antenna Inventory & Characterization](#-antenna-inventory--characterization)
-* [Quick Start: Bench Setup](#%EF%B8%8F-quick-start-microwave-bench--antenna-setup)
-* [Laboratory Observations & Setup](#laboratory-observations--setup)
-* [Takeaways](#takeaways)
-* [Conclusion](#conclusion)
-
-
+* [🎯 Objectives](#objectives)
+* [📖 Theoretical Background](#theory)
+* [📡 Antenna Inventory & Analysis](#inventory)
+* [🛠️ Quick Start: Antenna & Waveguide Setup](#setup)
+* [🔬 Laboratory Observations](#observations)
+* [💡 Key Takeaways](#takeaways)
+* [📈 Final Conclusion](#conclusion)
 ---
 
-## Objectives
+<a name="objectives"></a>
+## 🎯 Objectives
 <details>
 <summary><b>View Details</b></summary>
 
@@ -46,13 +42,14 @@
 
 ---
 
-## Theoretical Background
+<a name="theory"></a>
+## 📖 Theoretical Background
 *Core principles governing Yagi–Uda directivity and specialized waveguide components.*
 
 <details>
 <summary><b>View Theory & Physics</b></summary>
 
-### Antenna Fundamentals
+### x
 Antennas act as electromagnetic transducers, converting electrical signals into radiated waves.
 *   **Yagi–Uda Configuration:** Utilized for high directivity, using reflectors and directors to focus energy along a main lobe.
 *   **Horn Antenna:** Acts as a high-gain aperture radiator, providing a seamless impedance transition from the waveguide to free space.
@@ -76,10 +73,12 @@ Proper signal management requires a specific sequence of microwave hardware:
 
 ---
 
+<a name="inventory"></a>
 ## 📡 Antenna Inventory & Characterization
 *Evaluated a diverse range of antenna geometries to analyze gain, directivity, and polarization.*
 
-
+<details>
+  
 | Category | Antenna Type | Technical Focus |
 | :--- | :--- | :--- |
 | **High-Gain Arrays** | **Yagi-Uda (7-Element)** | Maximum forward gain & narrow beamwidth optimization. |
@@ -91,33 +90,38 @@ Proper signal management requires a specific sequence of microwave hardware:
 | | **Loop Antenna** | Magnetic field (H-field) reception characteristics. |
 | **Circularly Polarized**| **Helical Antenna** | Axial mode propagation for satellite link simulation. |
 
+</details>
+
 ---
 
-## 🛠️ Quick Start: Microwave Bench & Antenna Setup
-*Standard Operating Procedure (SOP) for signal validation and radiation pattern mapping.*
+<a name="setup"></a>
+## 🛠️ Quick Start: Antenna & Waveguide Setup
+*Standard Operating Procedure (SOP) for signal validation and directional alignment.*
+
+<details>
 
 ### 1️⃣ Component Sequence (Signal Chain)
-1. **Microwave Source:** Gunn Power Supply or Klystron (Modulated at 1 kHz).
-2. **Isolator:** Prevents reflected power from damaging the source.
-3. **Variable Attenuator:** Sets the initial reference signal level.
-4. **Frequency Meter:** Calibrate to your operating frequency (e.g., X-Band).
-5. **Slotted Line:** For SWR measurement and E-field distribution analysis.
-6. **Transmitting Antenna:** Connect the Horn or Yagi-Uda (7-Element).
+1. **Signal Source:** High-frequency generator (stabilized for the target band).
+2. **Waveguide Section:** Standard rectangular waveguide for guided mode propagation.
+3. **Transition Adapter:** Waveguide-to-Coaxial adapter to feed the antenna elements.
+4. **Driven Element:** Connect the dipole section of the **Yagi-Uda** array.
+5. **Parasitic Elements:** Correctly space the **Reflector** and **Directors** on the boom.
+6. **Receiving Station:** Identical antenna or probe to capture the transmitted signal.
 
-### 2️⃣ Antenna Alignment & Acquisition
-*   **Impedance Matching:** Adjust the **Slide Screw Tuner** to minimize reflections.
-*   **Polarization Sync:** Ensure antennas are aligned (Horizontal/Vertical) to avoid loss.
-*   **Directivity Mapping:** Rotate the receiving antenna in 10° increments for the **Radiation Pattern**.
+### 2️⃣ System Alignment & Configuration
+*   **Element Spacing:** Ensure the Reflector (longer) and Directors (shorter) are seated firmly to focus the beam.
+*   **Polarization Sync:** Align both antennas (Horizontal or Vertical) to prevent cross-polarization signal loss.
+*   **Mechanical Integrity:** Check that the waveguide flange is flush to ensure a stable "Guided-to-Free-Space" transition.
 
 > [!TIP]
-> **Hardware Precision:** Always verify **flange alignment** before powering the source. Misalignment causes signal leakage and SWR spikes, skewing gain calculations for high-element Yagi arrays.
+> **Hardware Precision:** Always verify **flange alignment** before testing. Even slight gaps between waveguide sections cause signal leakage and impedance mismatches, which directly degrade the gain of high-element Yagi arrays.
+
+</details>
 
 ---
 
-
----
-
-## Laboratory Observations & Setup
+<a name="observations"></a>
+## 🔬 Laboratory Observations
 *Direct visual evidence of the microwave signal chain and signal acquisition performance.*
 
 <details>
@@ -161,7 +165,8 @@ Proper signal management requires a specific sequence of microwave hardware:
 
 ---
 
-## Takeaways
+<a name="takeaways"></a>
+## 💡 Key Takeaways
 *Practical experience in RF system assembly, signal validation, and hardware configuration.*
 
 <details open>
@@ -187,7 +192,8 @@ The waveguide portion of the lab focused on the complex physical architecture re
 
 ---
 
-## Conclusion
+<a name="conclusion"></a>
+## 📈 Final Conclusion
 The session successfully validated the significance of waveguides and antennas in microwave systems. This project serves as a technical springboard for advanced RF and microwave engineering.
 
 ---
