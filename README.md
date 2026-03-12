@@ -27,9 +27,12 @@
 ## 📋 Table of Contents
 * [Objectives](#objectives)
 * [Theoretical Background](#theoretical-background)
+* [Antenna Inventory & Characterization](#-antenna-inventory--characterization)
+* [Quick Start: Bench Setup](#%EF%B8%8F-quick-start-microwave-bench--antenna-setup)
 * [Laboratory Observations & Setup](#laboratory-observations--setup)
 * [Takeaways](#takeaways)
 * [Conclusion](#conclusion)
+
 
 ---
 
@@ -70,6 +73,47 @@ Proper signal management requires a specific sequence of microwave hardware:
 *   **Signal Modulation:** Utilized **1 kHz square wave modulation** to facilitate signal detection via the detector mount and oscilloscope.
 
 </details>
+
+---
+
+## 📡 Antenna Inventory & Characterization
+*Evaluated a diverse range of antenna geometries to analyze gain, directivity, and polarization.*
+
+
+| Category | Antenna Type | Technical Focus |
+| :--- | :--- | :--- |
+| **High-Gain Arrays** | **Yagi-Uda (7-Element)** | Maximum forward gain & narrow beamwidth optimization. |
+| | **Yagi-Uda (6-Element)** | Comparative analysis of parasitic element scaling. |
+| | **Log-Periodic (LPDA)** | Wideband frequency response and impedance stability. |
+| **Aperture** | **Standard Gain Horn** | Microwave waveguide-to-free-space transition. |
+| **Wire / Fundamental** | **Folded Dipole** | Impedance matching for driven elements (300Ω). |
+| | **Monopole / Simple Dipole** | Standard omnidirectional radiation patterns. |
+| | **Loop Antenna** | Magnetic field (H-field) reception characteristics. |
+| **Circularly Polarized**| **Helical Antenna** | Axial mode propagation for satellite link simulation. |
+
+---
+
+## 🛠️ Quick Start: Microwave Bench & Antenna Setup
+*Standard Operating Procedure (SOP) for signal validation and radiation pattern mapping.*
+
+### 1️⃣ Component Sequence (Signal Chain)
+1. **Microwave Source:** Gunn Power Supply or Klystron (Modulated at 1 kHz).
+2. **Isolator:** Prevents reflected power from damaging the source.
+3. **Variable Attenuator:** Sets the initial reference signal level.
+4. **Frequency Meter:** Calibrate to your operating frequency (e.g., X-Band).
+5. **Slotted Line:** For SWR measurement and E-field distribution analysis.
+6. **Transmitting Antenna:** Connect the Horn or Yagi-Uda (7-Element).
+
+### 2️⃣ Antenna Alignment & Acquisition
+*   **Impedance Matching:** Adjust the **Slide Screw Tuner** to minimize reflections.
+*   **Polarization Sync:** Ensure antennas are aligned (Horizontal/Vertical) to avoid loss.
+*   **Directivity Mapping:** Rotate the receiving antenna in 10° increments for the **Radiation Pattern**.
+
+> [!TIP]
+> **Hardware Precision:** Always verify **flange alignment** before powering the source. Misalignment causes signal leakage and SWR spikes, skewing gain calculations for high-element Yagi arrays.
+
+---
+
 
 ---
 
