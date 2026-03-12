@@ -22,13 +22,17 @@
 ---
 
 ## 📋 Table of Contents
-* [🎯 Objectives](#objectives)
-* [📖 Theoretical Background](#theory)
-* [📡 Antenna Inventory & Analysis](#inventory)
-* [🛠️ Quick Start: Antenna & Waveguide Setup](#setup)
-* [🔬 Laboratory Observations](#observations)
-* [💡 Key Takeaways](#takeaways)
-* [📈 Final Conclusion](#conclusion)
+&nbsp;&nbsp;&nbsp;&nbsp; [🎯 Objectives](#objectives) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; [📖 Theoretical Background](#theory) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; [📡 Antenna Inventory & Analysis](#inventory) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; [🛠️ Quick Start: Antenna & Waveguide Setup](#setup) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; [🔬 Laboratory Observations](#observations) <br>
+
+**Analysis & Footnotes** <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [💡 Key Takeaways](#takeaways) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [📈 Final Conclusion](#conclusion) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🛠️ Summary](#summary)
+
 ---
 
 <a name="objectives"></a>
@@ -197,5 +201,12 @@ The waveguide portion of the lab focused on the complex physical architecture re
 The session successfully validated the significance of waveguides and antennas in microwave systems. This project serves as a technical springboard for advanced RF and microwave engineering.
 
 ---
+
+<a name="summary"></a>
+## 🛠️ Summary
+*   **Platform:** Antenna & Waveguide
+*   **Measurement:** Rotating Pedestal & Signal Receiver Indicators
+*   **Verification:** Antenna reception confirmed via real-time signal capture; waveguide analysis focused on component identification and mechanical alignment requirements.
+
 
 <p align="right"><a href="#readme-top">Back to top ↑</a></p>
